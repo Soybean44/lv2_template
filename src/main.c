@@ -70,7 +70,7 @@ static void cleanup(LV2_Handle instance) { free(instance); }
 
 static const void *extension_data(const char *uri) { return NULL; }
 
-static const LV2_Descriptor descriptor = {AMP_URI,  instantiate,   connect_port,
+static const LV2_Descriptor descriptor = {APP_URI,  instantiate,   connect_port,
                                           activate, run,           deactivate,
                                           cleanup,  extension_data};
 

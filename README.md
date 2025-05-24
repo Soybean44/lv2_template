@@ -1,2 +1,3 @@
-# lv2_test
-test repo for making an lv2 plugin
+# LV2 Template
+
+This template is a starting project to compile lv2 plugins
